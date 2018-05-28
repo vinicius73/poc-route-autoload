@@ -6,6 +6,6 @@ const path = require('path')
 
 registerRoutesByPath(server, path.join(__dirname, './routes'))
 
-server.listen(process.env.PORT || 8080, () => {
+server.listen(process.env.PORT || 9999, () => {
   console.log('%s listening at %s', server.name, server.url)
 })
